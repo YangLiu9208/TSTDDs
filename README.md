@@ -20,7 +20,7 @@ NTU RGB-D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/acti
 5. We release the indices of the [splits](https://drive.google.com/open?id=1B0lopUbC6WAdeTorNxWxG5XfKbnQiv9X). for all the 5 folds here. 
 
 ### TSTDDs demo code ###
-    Here, a matlab demo code for TSTDDs extraction is provided.
+Here, a matlab demo code for TSTDDs extraction is provided.
     **Step 1**: Improved Trajectory Extraction
     You need download our modified iDT feature code and compile it by yourself. [Improved Trajectories](https://drive.google.com/open?id=1-xasagLTTL1E3SIKtcwnfMgrkHYVFVvF)
     **Step 2**: TVL1 Optical Flow Extraction
