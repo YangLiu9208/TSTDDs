@@ -14,10 +14,10 @@ NTU RGB-D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/acti
 ### Code
 (Matlab R2016b or higher version is required to open these files)
 1. [Caffe models](https://drive.google.com/open?id=1vTNJLR66cxTwyj9qzsxBuN5k9fxm6aqh).
-2. [TSTDDs codes](https://drive.google.com/open?id=1hujdiNyEn9hoDXxOJdfYjMWBwdOADuNG).("spatial_v2.caffemodel" and "temporal_v2.caffemodel" must be included in the "TSSDDs\model"). 
-3. [TSTDDs features](https://drive.google.com/open?id=1fIJ-2XW_4rZba3jzrXUzf2k6GuceD58e).for all the videos on the InfAR dataset. 
-4. [Matlab codes](https://drive.google.com/open?id=1OkvbxX4-yqpbBeIbLRzBaOJBv80GALRY).for generating the training and test set. 
-5. We release the indices of the [splits](https://drive.google.com/open?id=1B0lopUbC6WAdeTorNxWxG5XfKbnQiv9X). for all the 5 folds here. 
+2. [TSTDDs codes](https://drive.google.com/open?id=1hujdiNyEn9hoDXxOJdfYjMWBwdOADuNG) ("spatial_v2.caffemodel" and "temporal_v2.caffemodel" must be included in the "TSSDDs\model"). 
+3. [TSTDDs features](https://drive.google.com/open?id=1fIJ-2XW_4rZba3jzrXUzf2k6GuceD58e) for all the videos on the InfAR dataset. 
+4. [Matlab codes](https://drive.google.com/open?id=1OkvbxX4-yqpbBeIbLRzBaOJBv80GALRY) for generating the training and test set. 
+5. We release the indices of the [splits](https://drive.google.com/open?id=1B0lopUbC6WAdeTorNxWxG5XfKbnQiv9X) for all the 5 folds here. 
 
 ### TSTDDs demo code ###
 Here, a matlab demo code for TSTDDs extraction is provided.
