@@ -7,35 +7,35 @@ Infrared human action recognition has many advantages, i.e. it is insensitive to
 ![Image](Fig1.jpg)
 Frameworks of our infrared action recognition method and the conventional method. Compared with the conventional method, our method is different in network input, CNNs structure, feature extraction, and classification strategy.
 
-### Data
-Dataset can be downloaded [here](https://drive.google.com/open?id=0B2TeCRG1hB55eGV1V2FJb19Cd2s), or [here](http://dwz.cn/61ckOm). Total in size = 7.43G. 
-Data was caputred 29frames/s. During training, frames are sampled 30 frames/s. Thus, 1 image ~= 1s. 
-
-For data argumentation and labelling, please check Section 4.4 in our paper. 
-`L.Ran, Y. Zhang, Q. Zhang, T. Yang, Convolutional Neural Network Based Robot Navigation Using Uncalibrated Spherical Images, 2017.`
-
-For more information about the formatted images and labels, please contact us at ![gmail](gmail.png) 
+### Datasets
+InfAR dataset can be downloaded [here](https://sites.google.com/site/gaochenqiang/publication/infrared-action-dataset).
+NTU RGB-D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
 
 ### Code
-Source code avaliable: [navi.zip](https://github.com/hijeffery/PanoNavi/blob/master/navi.zip).
+(Matlab R2016b or higher version is required to open these files)
+1. [Caffe models]: (https://drive.google.com/open?id=1vTNJLR66cxTwyj9qzsxBuN5k9fxm6aqh)
+2. [TSTDDs codes] ("spatial_v2.caffemodel" and "temporal_v2.caffemodel" must be included in the "TSSDDs\model"). (https://drive.google.com/open?id=1hujdiNyEn9hoDXxOJdfYjMWBwdOADuNG)
+3. [TSTDDs features] for all the videos on the InfAR dataset. (https://drive.google.com/open?id=1fIJ-2XW_4rZba3jzrXUzf2k6GuceD58e)
+4. [Matlab codes] for generating the training and test set. (https://drive.google.com/open?id=1OkvbxX4-yqpbBeIbLRzBaOJBv80GALRY)
+5. We release the indices of the [splits] for all the 5 folds here. (https://drive.google.com/open?id=1B0lopUbC6WAdeTorNxWxG5XfKbnQiv9X)
+
+### TSTDDs demo code ###
+    Here, a matlab demo code for TSTDDs extraction is provided.
+    **Step 1**: Improved Trajectory Extraction
+    You need download our modified iDT feature code and compile it by yourself. [Improved Trajectories] (https://drive.google.com/open?id=1-xasagLTTL1E3SIKtcwnfMgrkHYVFVvF)
+    **Step 2**: TVL1 Optical Flow Extraction
+    You need download our dense flow code and compile it by yourself. [Dense Flow] (https://drive.google.com/open?id=1qvBX39hY36N9o2DDIiNsx8uFO-Rm3IJ1)
+    **Step 3**: Matcaffe
+    You need download the public caffe toolbox. Our TDD code is compatatible with the latest version of [parallel caffe toolbox](https://github.com/yjxiong/caffe)
+    **Note that you need to download the models in the new proto format:**
+    ["Spatial net model (v2)"](http://mmlab.siat.ac.cn/tdd/spatial_v2.caffemodel) ["Temporal net model (v2)"](http://mmlab.siat.ac.cn/tdd/temporal_v2.caffemodel) 
+    **Step 4**: TSTDDs Extraction
+    Now you can run the matlab file "TSTDDs_main.m" to extract TSTDDs features.
+    
 If you find the work helpful, please kindly consider to cite our paper by:
 ```
-@article{ran2017convolutional,
-  title={Convolutional Neural Network-Based Robot Navigation Using Uncalibrated Spherical Images},
-  author={Ran, Lingyan and Zhang, Yanning and Zhang, Qilin and Yang, Tao},
-  journal={Sensors},
-  volume={17},
-  number={6},
-  pages={1341},
-  year={2017},
-  publisher={Multidisciplinary Digital Publishing Institute}
-}
+
 ```
 
-### Performance
-[![Video](frontpage.png)](https://youtu.be/4ZjnVOa8cKA) [Demo](https://youtu.be/4ZjnVOa8cKA) video for navigation within campus.
-Demo video is made with 15fps, ~= 15x faster than the original video.
-
 ### Reference
-1. Ran, L.; Zhang, Y.; Yang, T.; Zhang, P. Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images. Chinese Conference on Intelligent Visual Surveillance. Springer, Singapore, 2016, pp. 47–55.
-2. Giusti, A.; Guzzi, J.; Ciresan, D.; He, F.L.; Rodriguez, J.P.; Fontana, F.; Faessler, M.; Forster, C.; Schmidhuber, J.; Di Caro, G.; Scaramuzza, D.; Gambardella, L. A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots. IEEE Robotics and Automation Letters 2016. 
+
