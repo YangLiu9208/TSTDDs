@@ -21,14 +21,18 @@ NTU RGB-D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/acti
 
 ### TSTDDs demo code ###
 Here, a matlab demo code for TSTDDs extraction is provided.
+
 **Step 1**: Improved Trajectory Extraction
 You need download our modified iDT feature code and compile it by yourself. [Improved Trajectories](https://drive.google.com/open?id=1-xasagLTTL1E3SIKtcwnfMgrkHYVFVvF)
+
 **Step 2**: TVL1 Optical Flow Extraction
 You need download our dense flow code and compile it by yourself. [Dense Flow](https://drive.google.com/open?id=1qvBX39hY36N9o2DDIiNsx8uFO-Rm3IJ1)
+
 **Step 3**: Matcaffe
 You need download the public caffe toolbox. Our TDD code is compatatible with the latest version of [parallel caffe toolbox](https://github.com/yjxiong/caffe)
 **Note that you need to download the models in the new proto format:**
 ["Spatial net model (v2)"](http://mmlab.siat.ac.cn/tdd/spatial_v2.caffemodel) ["Temporal net model (v2)"](http://mmlab.siat.ac.cn/tdd/temporal_v2.caffemodel) 
+
 **Step 4**: TSTDDs Extraction
 Now you can run the matlab file "TSTDDs_main.m" to extract TSTDDs features.
     
