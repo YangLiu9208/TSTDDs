@@ -43,7 +43,7 @@ If you find the work helpful, please kindly consider to cite our paper by:
 @article{YangLiu,
   title={Global Temporal Representation based CNNs for Infrared Action Recognition},
   author={Yang Liu and Zhaoyang Lu and Jing Li and Tao Yang and Chao Yao},
-  journal={Ieee SignalL Processing Letters},
+  journal={Ieee Signal Processing Letters},
   volume={},
   pages = {},
   year={},
