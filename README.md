@@ -9,6 +9,7 @@ Frameworks of our infrared action recognition method and the conventional method
 
 ### Datasets
 InfAR dataset can be downloaded [here](https://sites.google.com/site/gaochenqiang/publication/infrared-action-dataset).
+
 NTU RGB-D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
 
 ### Code
