@@ -40,7 +40,7 @@ Now you can run the matlab file "TSTDDs_main.m" to extract TSTDDs features.
     
 If you find the work helpful, please kindly consider to cite our paper by:
 ```
-@article{YangLiu,
+@article{TSTDDs,
   title={Global Temporal Representation based CNNs for Infrared Action Recognition},
   author={Yang Liu and Zhaoyang Lu and Jing Li and Tao Yang and Chao Yao},
   journal={Ieee Signal Processing Letters},
