@@ -4,7 +4,7 @@ Infrared human action recognition has many advantages, i.e. it is insensitive to
 
 ### Model
 ![Image](Fig1.jpg)
-Frameworks of our infrared action recognition method and the conventional method. Compared with the conventional method, our method is different in network input, CNNs structure, feature extraction, and classification strategy.
+Figure 1: Frameworks of our infrared action recognition method and the conventional method. Compared with the conventional method, our method is different in network input, CNNs structure, feature extraction, and classification strategy.
 
 ### Datasets
 InfAR dataset can be downloaded [here](https://sites.google.com/site/gaochenqiang/publication/infrared-action-dataset).
