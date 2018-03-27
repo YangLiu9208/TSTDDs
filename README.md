@@ -11,7 +11,7 @@ InfAR dataset can be downloaded [here](https://sites.google.com/site/gaochenqian
 
 NTU RGB+D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
 
-### Code
+### Codes
 (Matlab R2016b or higher version is required to open these files)
 1. [Caffe models](https://drive.google.com/open?id=1vTNJLR66cxTwyj9qzsxBuN5k9fxm6aqh).
 2. [TSTDDs codes](https://drive.google.com/open?id=1hujdiNyEn9hoDXxOJdfYjMWBwdOADuNG) ("spatial_v2.caffemodel" and "temporal_v2.caffemodel" must be included in the "TSSDDs\model"). 
