@@ -51,4 +51,4 @@ If you find the work helpful, please kindly consider to cite our paper by:
 }
 ```
 ### Reference
-Yang, Liu; Zhaoyang, Lu; Jing, Li; Tao, Yang; Chao, Yao. Global Temporal Representation based CNNs for Infrared Action Recognition. IEEE Signal Processing Letters, minor revision
+Yang, Liu; Zhaoyang, Lu; Jing, Li; Tao, Yang; Chao, Yao. Global Temporal Representation based CNNs for Infrared Action Recognition. IEEE Signal Processing Letters, minor revision.
