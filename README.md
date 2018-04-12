@@ -9,6 +9,9 @@ Infrared human action recognition has many advantages, i.e. it is insensitive to
 Figure 1: Frameworks of our infrared action recognition method and the conventional method. Compared with the conventional method, our method is different in network input, CNNs structure, feature extraction, and classification strategy.
 
 ### Datasets
+![Image](Fig2.png)
+Figure 2: Example images from video sequences on InfAR (first row) and NTU RGB+D (second row) datasets. (a) fight. (b) handclapping. (c) handshake. (d) hug. (e) jog. (f) jump. (g) drop. (f) pickup. (g) throw. (h) sitting down. (i) standing up. (j) clapping.
+
 InfAR dataset can be downloaded [here](https://sites.google.com/site/gaochenqiang/publication/infrared-action-dataset).
 
 NTU RGB+D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
