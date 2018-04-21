@@ -13,7 +13,7 @@ Figure 1: Frameworks of our infrared action recognition method and the conventio
 ### Network Structure
 
 ![Image](Fig3.png)
-Figure 2: Table I shows the details of three-stream CNNs in terms of kernel, stride, channel size, and map size ratio.
+Table I: The details of three-stream CNNs in terms of kernel, stride, channel size, and map size ratio.
 
 ### Datasets
 ![Image](Fig2.png)
