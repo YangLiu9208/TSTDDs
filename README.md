@@ -25,7 +25,7 @@ NTU RGB+D dataset can be downloaded [here](http://rose1.ntu.edu.sg/Datasets/acti
 
 ### Codes
 (Matlab R2016b or higher version is required to open these files)
-1. [Caffe models](https://drive.google.com/open?id=1vTNJLR66cxTwyj9qzsxBuN5k9fxm6aqh). We also release the trained model named "[InfAR_TDDs_rgb_iter_10000.caffemode](https://drive.google.com/open?id=1ewd8RSUfyinKr_RFK3DfDKeRuu-BlwIv)".  
+1. [Caffe models](https://drive.google.com/open?id=1vTNJLR66cxTwyj9qzsxBuN5k9fxm6aqh). We also release the trained model named "[InfAR_TDDs_rgb_iter_10000.caffemodel](https://drive.google.com/open?id=1ewd8RSUfyinKr_RFK3DfDKeRuu-BlwIv)".  
 2. [TSTDDs codes](https://drive.google.com/open?id=1hujdiNyEn9hoDXxOJdfYjMWBwdOADuNG) ("spatial_v2.caffemodel" and "temporal_v2.caffemodel" must be included in the "TSSDDs\model"). 
 3. [TSTDDs features](https://drive.google.com/open?id=1fIJ-2XW_4rZba3jzrXUzf2k6GuceD58e) for all the videos on the InfAR dataset. 
 4. [Matlab codes](https://drive.google.com/open?id=1OkvbxX4-yqpbBeIbLRzBaOJBv80GALRY) for generating the training and test set. 
